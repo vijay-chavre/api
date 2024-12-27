@@ -1,0 +1,60 @@
+2024-12-27 19:42:19.639 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:19.639 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:19.639 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:21.733 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:21.733 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:21.733 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:22.465 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:22.465 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:22.465 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:22.659 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:22.659 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:22.659 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:22.826 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:22.826 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:22.826 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:23.011 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:23.011 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:23.011 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:23.194 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:23.194 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:23.194 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:23.360 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:23.360 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:23.360 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:24.600 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:24.600 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:24.600 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:24.775 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:24.775 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:24.775 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:24.944 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:24.944 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:24.944 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:25.129 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:25.129 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:25.129 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:25.329 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:25.329 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:25.329 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:25.569 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:25.569 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:25.570 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
+2024-12-27 19:42:25.744 | ERROR    | core_apps.user_auth.views:get:15 - This is an error message.
+2024-12-27 19:42:25.744 | CRITICAL | core_apps.user_auth.views:get:16 - This is a critical message.
+2024-12-27 19:42:25.744 | ERROR    | core_apps.user_auth.views:get:18 - This is an exception message.
+NoneType: None
