@@ -2,6 +2,8 @@ FROM docker.io/python:3.12.0-slim-bookworm AS python
 
 # Stage 1: Build our dependency wheels
 FROM python AS python-build-Stage
+
+
 ARG BUILD_ENVIRONMENT=local
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -10,7 +12,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY ./requirements .
 
-RUN pip wheel --wheel-dir /usr/src/app/wheels -r ${BUILD_ENVIRONMENT}.txt
+RUN pip wheel --wheel-dir /usr/src/app/wheels \
+    -r local.txt
 
 
 # Stage 2:  Run Stage
@@ -22,21 +25,24 @@ ARG APP_HOME=/app
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
-    BUILD_ENV= ${BUILD_ENVIRONMENT}
+    BUILD_ENV=${BUILD_ENVIRONMENT}
 
 WORKDIR ${APP_HOME}
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sudo git bash-completion nano ssh \
-    libpq-dev  gettext \
+    libpq-dev gettext \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
-    && rm -rf /var/lib/apt/lists/* \
+    && rm -rf /var/lib/apt/lists/*
 
+# Create group and user
 RUN addgroup --system django && \
-    adduser --system --ingroup django django && \
-    mkdir -p ${APP_HOME}/staticfiles && \
+    adduser --system --ingroup django django
+
+# Create directory with appropriate ownership and permissions
+RUN mkdir -p ${APP_HOME}/staticfiles && \
     chown django:django ${APP_HOME}/staticfiles && \
-    chown 775 ${APP_HOME}/staticfiles
+    chmod 775 ${APP_HOME}/staticfiles
 
 COPY --from=python-build-Stage /usr/src/app/wheels /wheels/
 
